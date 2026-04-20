@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Simulated Deployment Started"
+- script: echo "Artifact would be deployed here"
